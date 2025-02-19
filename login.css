@@ -1,0 +1,82 @@
+/* General styles for body */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+/* Styles for container box */
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+/* Styles for heading */
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Flexbox for name fields */
+.name-fields {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+/* Style for the input fields */
+.name-fields input, 
+input[type="email"], 
+input[type="password"], 
+input[type="text"] {
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for checkbox container */
+.checkbox-container {
+    text-align: left;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+/* Style for button */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Style for footer (Sign In text) */
+.footer {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+/* Style for the link */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
